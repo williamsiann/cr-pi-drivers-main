@@ -1,0 +1,47 @@
+@font-face {
+  font-family: 'MiFont'; 
+  src: url('../../assets/font/Monoton-Regular.ttf') format('woff2'); 
+}
+
+.landing-container {
+  background-image: url("../../assets//f1color.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.content {
+  text-align: center;
+  color: white;
+  margin-top: 10%;
+}
+
+.landing-button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  width: 100px;
+  border: 2px solid #000;
+  border-radius: 5px;
+  color: rgb(23, 33, 34);
+  cursor: pointer;
+}
+
+.landing-image {
+  max-width: 450px; 
+  align-self: flex-start; /* Esto alineará la imagen en la parte superior */
+  cursor: pointer; 
+}
+
+.landing-text {
+  font-size: 1rem;
+  color:  #FF0000ff;
+  position: fixed; 
+  z-index: 999; 
+  font-family: Mifont;
+  margin-top: 7rem;
+  margin-left: 60rem;
+}

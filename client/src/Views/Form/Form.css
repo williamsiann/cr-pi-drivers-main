@@ -1,0 +1,123 @@
+@font-face {
+  font-family: 'MiFont'; 
+  src: url('../../assets/font/Monoton-Regular.ttf') format('woff2'); 
+}
+
+
+.form-container {
+  background-image: url("../../assets/f1color.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 91vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-card {
+  background-color: rgba(33, 31, 31, 0.8);
+  border-radius: 20px;
+  box-sizing: border-box;
+  height: 500px;
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: -300px;
+  margin-left: 60%;
+}
+
+.h1-form {
+  color: #FF0000ff; 
+  font-family: 'MiFont'; 
+  font-size: 30px;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 10px;
+  
+}
+
+.input-container {
+  margin-top: 5px;
+  padding: 10px;
+  height: 10px;
+  position: relative;
+  width: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  
+}
+
+.teams-container-create {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.h3-form {
+  text-align: center;
+  margin-top: 5px;
+  margin-bottom: -5px;
+  color: #ffffff;
+}
+
+.selected {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.team-span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #30313a;
+  border-radius: 20px;
+  padding: 5px;
+  margin-right: 4px;
+  color: #f4f2de;
+  width: 100px;
+  height: 20px;
+}
+
+.delete-btn {
+  background-color: #dc3545;
+  border: none;
+  border-radius: 50%;
+  color: #eee;
+  cursor: pointer;
+  font-size: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 8px;
+  width: 10px;
+  height: 10px;
+}
+
+.submit {
+  margin-top: 20px;
+}
+.submit:active {
+  background-color: #f4f2de;
+  color: #e9b384;
+}
+
+.error-text {
+  animation: blink 1s infinite;
+  color: hsl(9, 92%, 50%);
+}
+@keyframes blink {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+}

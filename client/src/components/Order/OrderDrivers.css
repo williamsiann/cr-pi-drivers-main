@@ -1,0 +1,16 @@
+.order-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-radius: 1rem;
+  color: brown;
+}
+
+.order-ascDesc,
+.order-dob {
+  margin-right: 20px;
+}
+
+.default{
+  display: none;
+}

@@ -1,0 +1,32 @@
+.home-container {
+  background-image: url("../../assets/AlfaRomeo.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 91vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.filter-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+
+}
+
+.pagination-container-Cards {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  border-radius: 15px;
+  flex-wrap: wrap;
+  gap: 2em;
+  backdrop-filter: blur(0);
+  height: 80%;
+  margin: 2rem;
+  padding: 30px;
+}

@@ -1,0 +1,25 @@
+@font-face {
+  font-family: 'MiFont'; 
+  src: url('../../assets/font/Monoton-Regular.ttf') format('woff2'); 
+}
+
+.filter-input {
+  color: rgb(255, 255, 255);
+  margin: 1.8rem;
+  font-family: 'MiFont'; 
+}
+
+.filter-container {
+  display: flex;
+  justify-content: space-between; /* Esto dará espacio entre los elementos */
+}
+
+.filter-input {
+  display: flex;
+  align-items: center; /* Esto alinea verticalmente los elementos dentro de filter-input */
+}
+
+/* Agregar margen a las etiquetas de filtro */
+.filter-input label {
+  margin-right: 30px; /* Ajusta el valor según la cantidad de espacio que desees */
+}

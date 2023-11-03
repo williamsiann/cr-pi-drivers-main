@@ -1,0 +1,76 @@
+@font-face {
+  font-family: 'MiFont'; 
+  src: url('../../assets/font/Monoton-Regular.ttf') format('woff2'); 
+}
+
+
+.detail-container {
+  background-image: url("../../assets/f1color.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 86.8vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.driver-card {
+  background-color: rgba(24, 23, 23, 0.96);
+  width: 40%;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 30px rgba(245, 243, 243, 0.3);
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.info-center {
+  color: aliceblue;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.logo {
+  height: 50px;
+}
+
+.license-text {
+  font-size: 25px;
+  font-weight: bold;
+  margin-right: 0px;
+  font-family: 'MiFont'; 
+  color: #FF0000ff;
+}
+
+.img-container {
+  height: 390px;
+  width: 270px;
+  border-radius: 5px;
+  margin-right: 80px;
+}
+
+.driver-field {
+  display: flex;
+  flex-direction: row;
+  margin-left: 30px;
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-top: 1rem;
+}
+
+.driver-description {
+  margin-top: 80px;
+  color: aliceblue;
+  text-align: left;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.back-home:hover {
+  background-color: grey;
+}
